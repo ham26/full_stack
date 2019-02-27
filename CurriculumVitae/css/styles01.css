@@ -1,0 +1,169 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+a{
+  text-decoration: none;
+  color: #11999E;
+}
+body{
+  font-family: 'Merriweather', serif;
+
+  text-align: center;
+}
+
+h1{
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  color: #66BFBF;
+  height: 120px;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #66BFBF;
+  font-weight: normal;
+  line-height: 2;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+body{
+  position: relative;
+}
+
+p {
+    line-height: 2;
+}
+
+hr {
+  border: 0;
+  border-top: dotted 4px rgb(192,192,192);
+  border-width: 10px;
+  width: 8%;
+  margin: 50px auto;
+}
+
+.top-container{
+  background-color: #b4e9e2;
+  text-align: center;
+}
+
+.top-container h1{
+  padding-top: 150px;
+}
+.mountain{
+  padding-bottom: 200px;
+}
+.intro, .contact-me {
+  width: 30%;
+  margin: 0 auto;
+}
+
+.middle-container{
+  background-color: white;
+  margin: 100px 0 20px;
+}
+
+.top-cloud{
+  position: absolute;
+  top: 80px;
+  right: 300px;
+}
+.bottom-cloud{
+  position: absolute;
+  top: 350px;
+  left: 250px;
+}
+
+.my-pic {
+  border: 2px solid white;
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  box-shadow: 0 5px 10px rgba(115, 115, 115, 0.75);
+}
+
+.profile {
+  margin: 0px auto 50px auto;
+}
+
+.skill-row{
+  margin: auto;
+  width: 600px;
+  height: 180px;
+  text-align: left;
+
+}
+
+.left {
+  text-align: left;
+}
+.right{
+  text-align: right;
+}
+
+.left img {
+  float: left;
+  margin-right: 20px;
+  width: 20%;
+}
+
+.right img {
+  float: right;
+  margin-left: 20px;
+  width: 20%;
+}
+
+
+.bottom-container {
+  background-color: #66BFBF;
+  color: white;
+}
+
+
+
+.links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.links img {
+  margin: 20px;
+  width: 40px;
+}
+
+.credit {
+  font-size: 0.5em;
+}
+
+.credit a{
+  text-decoration: none;
+  color: white;
+}
+
+.copyright{
+  font-size: .75rem;
+  padding: 10px 0;
+}
+
+.submit-btn{
+  padding: 10px 30px;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  background-image: linear-gradient(#66BFBF, #11999E);
+  border-style: none;
+  margin: 40px auto;
+}
+.submit-btn:hover {
+  box-shadow: 5px 5px 7px rgba(116, 116, 116, 0.8);
+  transform: translate(-1px, -1px)
+}
